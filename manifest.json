@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Zoom waiting room notifier",
+    "version": "1.0",
+   
+    "description": "Play some sound when user is accepted into meeting by the Host from the Waiting Room.",
+   
+    "content_scripts": [
+      {
+        "matches": ["*://*.zoom.us/*"],
+        "js": ["test.js"]
+      }
+    ],
+   
+    "permissions": []
+  }
