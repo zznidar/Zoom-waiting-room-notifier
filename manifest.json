@@ -11,6 +11,10 @@
         "js": ["test.js"]
       }
     ],
+
+    "web_accessible_resources": [
+      "note.mp3"
+    ],
    
     "permissions": []
   }
